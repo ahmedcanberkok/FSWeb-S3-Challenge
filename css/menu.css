@@ -129,7 +129,7 @@ footer {
 }
 
 /* mobile media query */
-@media (max-width: 428px) {
+@media (min-width: 428px) and (max-width:1024px) {
     /* header section */
     .header-title {
         width: 75%;
@@ -141,6 +141,7 @@ footer {
     /* menu */
     .menu {
         background-image: none;
+
     }
 
     /* footer section */
